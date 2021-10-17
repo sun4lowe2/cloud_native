@@ -13,4 +13,4 @@ release: build
 
 push: release
 	echo "pushing 3un4lowe2/httpserver"
-	docker push 3un4lowe2/httpserver:v1.0
+	docker push 3un4lowe2/httpserver:${tag}
